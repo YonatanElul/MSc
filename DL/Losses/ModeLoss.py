@@ -7,6 +7,7 @@ import numpy as np
 
 def corr_loss(true_input: np.ndarray, model_input: np.ndarray):
     """
+    Description:
 
     :param true_input:
     :param model_input:
@@ -24,6 +25,7 @@ def mode_loss(discriminator, real_data: tf.Tensor, fake_data: tf.Tensor,
               discriminator_real: tf.Tensor, discriminator_fake: tf.Tensor,
               batch_size: int = 64, g_penalty_lambda: int = 10, gamma: float = 0.5):
     """
+    Description:
 
     :param discriminator:
     :param real_data:
